@@ -17,13 +17,21 @@ Operacje arytmetyczne mogą być reprezntowane przez funkcje na liczbach Churcha
 **Inkrementacja (succ):**
 succ = n f x =  f ( n f x )  // wykonanie funkcji f n+1 razy
 
+
+
 **Dodawanie (add):**
 add=n m f x= n f( m f x)//wykonanie funkcji f m+n razy
+
+
 
 **Mnożenie (mult):**
 mult=n m f x= m(n f) x
 
+
+
 **Eksponenta (exp):**
 exp=n m f x= (n m) f x
+
+
 
 W programie poza wyżej wymienionymi funkcjami zaimplementowano także funckję **church2int**, która pozwala na zamianę liczby Churcha na int, co ułatwia weryfikację wyników.
